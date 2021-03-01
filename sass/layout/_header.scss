@@ -1,7 +1,7 @@
 .header {
   outline: 1px solid #ececec;
 
-  & .container {
+  .container {
     display: flex;
     align-items: center;
   }
@@ -63,7 +63,7 @@
   &:hover,
   &:focus {
     color: var(--main-logo-color);
-    & .mail__logo {
+    .mail__logo {
       fill: var(--main-logo-color);
     }
   }
@@ -90,7 +90,7 @@
   &:focus {
     color: var(--main-logo-color);
 
-    & .tel__logo {
+    .tel__logo {
       fill: var(--main-logo-color);
     }
   }
